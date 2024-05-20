@@ -1,0 +1,33 @@
+body {
+    background-image: url('../assets/img/cinema-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+  }
+  header {
+    display: flex;
+    align-items: center; /* Alinea verticalmente los elementos del encabezado */
+    
+}
+
+header img {
+    width: 50px; /* Ajusta el ancho de la imagen según sea necesario */
+    height: auto; /* Esto mantiene la proporción de la imagen */
+    margin-right: 10px; /* Espacio entre la imagen y el título */
+}
+header h1 {
+  font-size: 24px; /* Ajusta el tamaño del texto según sea necesario */
+  color: white;
+}
+  .section_form {
+    background-color: rgba(103, 124, 232, 0.804);
+  }
+  
+  small {
+    font-size: smaller;
+    color: rgb(232, 239, 11);
+  }
+  
+  .ayuda {
+    text-decoration: none;
+  }
